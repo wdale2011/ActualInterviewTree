@@ -42,7 +42,9 @@ class Head extends React.Component {
         ) : (
           <div>
             <button onClick={this.addReport}>Add Report</button>
-            <button onClick={console.log('delete')}>Remove Employee</button>
+            <button onClick={() => console.log('delete')}>
+              Remove Employee
+            </button>
           </div>
         )}
         <ol>
